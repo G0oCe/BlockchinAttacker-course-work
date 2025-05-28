@@ -1,0 +1,27 @@
+{
+  "blockchainFilePath": "../../generated/blockchain_5_10.json",
+  "attackTarget": "last",
+  "useMultithreading": true,
+  "numThreads": 2,
+  "logFilePath": "../../bin/attack_log.txt",
+  "resultsFilePath": "../../bin/attack_results.txt",
+  "nTimesResultsFilePath": "../../bin/attack_result_",
+  "attackEntropyValue": "DEFAULT_ENTROPY_FOR_ATTACK",
+  "useOriginalEntropy": true,
+  "stop_on_first_match": true,
+  "numberOfAttacks": 8,
+
+  "attackMode-comment":"transaction (1) or permutation (0)",
+  "attackMode": 0,
+
+  "permutation-comment":"permutation config",
+  "dataLength": 5,
+  "charSet": "abcdefghijklmnopqrstuvwxyz",
+
+  "transaction-comment":"transaction config",
+  "addressCharSet": "abcdefghijklmnopqrstuv",
+  "amountCharSet": "012345",
+  "amountLength": 1,
+  "senderAddressLength": 2,
+  "receiverAddressLength": 3
+}

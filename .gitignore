@@ -1,0 +1,38 @@
+# === C++ build artifacts ===
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+cmake-build-*/
+
+# === CLion ===
+.idea/
+*.iml
+
+# === Logs, dumps, and temp files ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Custom generated folders ===
+generated/
+bin/
+build/
+New Folder/
+
+# === JSON artifacts from your project ===
+generated/blockchain_*.json
+bin/New Folder/attack_log (1).txt
+bin/New Folder/attack_results (1).txt
